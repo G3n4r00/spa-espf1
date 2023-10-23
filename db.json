@@ -1,12 +1,6 @@
 {
   "produtos": [
     {
-      "nome": "Headset",
-      "desc": "Headset Logitech G735",
-      "preco": "999",
-      "id": 1
-    },
-    {
       "nome": "iPad Pro",
       "desc": "iPad Pro 2ª GEN",
       "preco": "3500",
@@ -29,6 +23,18 @@
       "desc": "alta resolução",
       "preco": "2500",
       "id": 5
+    },
+    {
+      "nome": "Teclado rgb",
+      "desc": "Rgb",
+      "preco": "450",
+      "id": 7
+    },
+    {
+      "nome": "Mouse 500dpi",
+      "desc": "500 dpi",
+      "preco": "150",
+      "id": 8
     }
   ]
 }
