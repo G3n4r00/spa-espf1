@@ -3,7 +3,7 @@ import App from './App/App.jsx'
 
 //BLOCO DAS ROTAS
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './routes/Home.jsx';
+import Home from './routes/Home/Home.jsx';
 import Produtos from './routes/Produtos/Produtos.jsx';
 import EditarProdutos from './routes/EditarProdutos/EditarProdutos.jsx';
 import Erro404 from './routes/Erro404.jsx';
