@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams, Link } from 'react-router-dom'
+import "./EditarProdutos.scss"
 
 export default function EditarProdutos() {
 
@@ -53,8 +54,8 @@ export default function EditarProdutos() {
     }
 
   return (
-    <div>
-        <h1>Editar Produtos</h1>
+    <div className='editarProdutos'>
+        <h1>Editar Produto</h1>
           <div>
             <form onSubmit={handleSubmit}>
               <fieldset>
@@ -71,8 +72,9 @@ export default function EditarProdutos() {
                   <label htmlFor="">Preço:</label>
                   <input type="text" name="preco" placeholder="Digite o preço do Produto." value={produto.preco} onChange={handleChange}/>
                 </div>
-                <div>
-                  <button>EDITAR</button>
+                <div className='botoes'>
+                  <button className='btnVoltar'><Link to={`/produtos`}>Voltar</Link></button>
+                  <button className='btnSalvar'>Salvar</button>
                 </div>
               </fieldset>
             </form>

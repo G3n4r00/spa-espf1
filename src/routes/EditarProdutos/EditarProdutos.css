@@ -1,0 +1,71 @@
+.editarProdutos h1 {
+  margin: 0.5em;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.editarProdutos form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.editarProdutos form fieldset {
+  padding: 10px;
+}
+.editarProdutos form legend {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.editarProdutos form label {
+  margin-bottom: 10px;
+}
+.editarProdutos form input,
+.editarProdutos form select,
+.editarProdutos form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.editarProdutos form input:focus,
+.editarProdutos form select:focus,
+.editarProdutos form textarea:focus {
+  outline: none;
+  border: 1px solid #4caf50;
+}
+.editarProdutos form .botoes {
+  display: flex;
+  justify-content: space-between;
+}
+.editarProdutos form .botoes .btnSalvar {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.editarProdutos form .botoes .btnSalvar:hover {
+  background-color: #237025;
+}
+.editarProdutos form .botoes .btnVoltar {
+  background-color: rgba(51, 51, 51, 0.0470588235);
+  border: 1px solid #333;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.editarProdutos form .botoes .btnVoltar a {
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+}
+.editarProdutos form .botoes .btnVoltar:hover {
+  background-color: rgba(51, 51, 51, 0.2392156863);
+}/*# sourceMappingURL=EditarProdutos.css.map */

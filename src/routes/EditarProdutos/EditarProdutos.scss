@@ -1,13 +1,4 @@
-.modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.88);
-    z-index: 1000;
-    color: #fff;
-    transition: opacity 0.3s ease;
+.editarProdutos {
 
     h1 {
         margin: 0.5em;
@@ -20,12 +11,11 @@
         flex-direction: column;
         align-items: center;
 
-        fieldset{
-            padding:10px;
-            background-color: #3a268152;
+        fieldset {
+            padding: 10px;
         }
 
-        legend{
+        legend {
             font-size: 20px;
             text-align: center;
             margin-bottom: 10px;
@@ -51,11 +41,11 @@
             }
         }
 
-        .botoes{
+        .botoes {
             display: flex;
             justify-content: space-between;
 
-            .btnConfirmar {
+            .btnSalvar {
                 background-color: #4caf50;
                 color: white;
                 border: none;
@@ -70,20 +60,23 @@
                     background-color: #237025;
                 }
             }
-            
+
             .btnVoltar {
-                background-color: transparent;
-                color: white;
-                border: 1px solid white;
+                background-color: #3333330c;
+                border: 1px solid #333;
                 padding: 10px 20px;
-                text-align: center;
-                text-decoration: none;
-                font-size: 16px;
                 cursor: pointer;
                 border-radius: 5px;
 
+                a {
+                    color: #333;
+                    text-decoration: none;
+                    text-align: center;
+                    font-size: 16px;
+                }
+
                 &:hover {
-                    background-color: #ffffff50
+                    background-color: #3333333d
                 }
             }
         }

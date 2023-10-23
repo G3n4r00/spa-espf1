@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { ListaProduto } from "../components/ListaProdutos";
-import style from "./Produtos.module.css";
+import "./Produtos.scss";
 import {AiTwotoneEdit as Editar} from "react-icons/ai"
+import { RiDeleteBin2Fill as Excluir } from "react-icons/ri";
 import { useEffect, useState} from "react"
-import ModalAction from '../components/ModalActions/ModalAction'
+import ModalAction from '../../components/ModalActions/ModalAction'
 
 export default function Produtos() {
   document.title = "Lista de Produtos";
@@ -18,7 +18,7 @@ export default function Produtos() {
 
   const [listaProdutosApi, setlistaProdutosApi] =  useState([]);
   const [open, setOpen] = useState(false)
-  const [prodID, setProdID] = useState(0)
+  const [prodID] = useState(0)
   
   useEffect(
   ()=>{
@@ -57,9 +57,9 @@ export default function Produtos() {
 
       {open ? <ModalAction open={open} id={prodID} setOpen={setOpen} /> : ""}
 
-      <button onClick={()=> setOpen(true)}>OPEN-MODAL</button>
+      
 
-      <table className={style.tblEstilo}>
+      <table className="tblEstilo">
         <thead>
           <tr>
             <th>ID</th>
@@ -73,26 +73,25 @@ export default function Produtos() {
 
         <tbody>
           {listaProdutosApi.map((item, indice) => (
-            <tr key={indice} className={style.lineTbl}>
+            <tr key={indice} className="lineTbl">
               <td>{item.id}</td>
               <td>{item.nome}</td>
               <td>{item.desc}</td>
-              <td>{item.preco}</td>
-              <td><Link to={`/editar/produtos/${item.id}`}> <Editar/> </Link> </td>
-              <td>
-                <button onClick={handleDelete.bind(this, item.id)}>Deletar</button>
-              </td>
+              <td>R$ {item.preco}</td>
+              <td><Link to={`/editar/produtos/${item.id}`}> <Editar/> </Link></td>
+              <td><Excluir onClick={handleDelete.bind(this, item.id)}/></td>
             </tr>
           ))}
         </tbody>
         <tfoot>
           <tr>
-            <td colSpan={5}>
-              PRODUTOS INFORMÁTICOS - QTD = {ListaProduto.length}
+            <td colSpan={6}>
+              QUANTIDADE DE PRODUTOS: {listaProdutosApi.length}
             </td>
           </tr>
         </tfoot>
       </table>
+      <button className="btnAdicionarProduto" onClick={() => setOpen(true)}>ADICIONAR PRODUTO</button>
     </div>
   );
 }

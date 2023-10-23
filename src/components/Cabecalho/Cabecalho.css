@@ -1,0 +1,26 @@
+.Cabecalho {
+  background-color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.Cabecalho ul {
+  list-style: none;
+  display: flex;
+  margin: 0 3rem;
+}
+.Cabecalho ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 21px 20px;
+  transition: ease-out 300ms;
+}
+.Cabecalho ul li a:hover {
+  background-color: #27ae60;
+}
+.Cabecalho ul .active {
+  background-color: #27ae60;
+}/*# sourceMappingURL=Cabecalho.css.map */

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./ModalAction.scss";
 import { useParams } from "react-router-dom";
 
@@ -45,9 +45,7 @@ export default function ModalAction(props) {
     if (props.open) {
         return ( 
           <div className= "modal">
-            <h1>NOVO PRODUTO</h1>
-            <button onClick={() => props.setOpen(false)}>CLOSE-MODAL</button>
-    
+            <h1>NOVO PRODUTO</h1>    
             <div>
               <form onSubmit={handleSubmit}>
                 <fieldset>
@@ -82,12 +80,15 @@ export default function ModalAction(props) {
                       onChange={handleChange}
                     />
                   </div>
-                  <div>
-                    <button>{id ? "EDITAR" : "Cadastrar"}</button> 
+                  <div className="botoes">
+                    <button className="btnVoltar" onClick={() => props.setOpen(false)}>Voltar</button>
+
+                    <button className="btnConfirmar">{id ? "EDITAR" : "Cadastrar"}</button>
                   </div>
                 </fieldset>
               </form>
             </div>
+            
           </div>
         );
       }
