@@ -4,4 +4,9 @@ sao carregados dentro do outlet, sao as paginas, sao trocados ao centro
 Um eh o home o outro eh o produtos e o terceiro é o editar produtos
 dentro do outlet carrego todas as paginas das rotas 
 
-Componentes complementam as rotas, um eh  ocabecalho outro é o rodape, eh um botaozinho um menuzinho lateral 
+Componentes complementam as rotas, um eh  ocabecalho outro é o rodape, eh um botaozinho um menuzinho lateral
+
+
+
+
+
