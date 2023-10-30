@@ -7,6 +7,7 @@ import Home from './routes/Home/Home.jsx';
 import Produtos from './routes/Produtos/Produtos.jsx';
 import EditarProdutos from './routes/EditarProdutos/EditarProdutos.jsx';
 import Erro404 from './routes/Erro404.jsx';
+import Login from './routes/Login/Login.jsx';
 //BLOCO DAS ROTAS
 
 const router = createBrowserRouter([
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     {path:"/", element:<Home/>},
     {path:"/produtos",element:<Produtos/>},
     {path:"/editar/produtos/:id",element:<EditarProdutos/>},
+    {path:"/login", element: <Login/>}
    ] 
  },
 ]);

@@ -36,5 +36,313 @@
       "preco": "150",
       "id": 8
     }
+  ],
+
+
+  "usuarios": [
+    {
+      "autoincrement": 1,
+      "email": "wallacedecampos@aol.net",
+      "name": "Wallace de Campos",
+      "text": "orci"
+    },
+    {
+      "autoincrement": 2,
+      "email": "felixlopes@aol.com",
+      "name": "Felix Lopes",
+      "text": "non,"
+    },
+    {
+      "autoincrement": 3,
+      "email": "elliottgomes382@hotmail.net",
+      "name": "Elliott Gomes",
+      "text": "metus."
+    },
+    {
+      "autoincrement": 4,
+      "email": "gradyrosa823@icloud.com",
+      "name": "Grady Rosa",
+      "text": "justo"
+    },
+    {
+      "autoincrement": 5,
+      "email": "deirdredarosa@protonmail.couk",
+      "name": "Deirdre da Rosa",
+      "text": "rutrum"
+    },
+    {
+      "autoincrement": 6,
+      "email": "isaiahmartins8489@protonmail.net",
+      "name": "Isaiah Martins",
+      "text": "lorem,"
+    },
+    {
+      "autoincrement": 7,
+      "email": "avrammariano5355@icloud.edu",
+      "name": "Avram Mariano",
+      "text": "Morbi"
+    },
+    {
+      "autoincrement": 8,
+      "email": "brockdematos@aol.edu",
+      "name": "Brock de Matos",
+      "text": "lobortis"
+    },
+    {
+      "autoincrement": 9,
+      "email": "seanrodrigues@aol.ca",
+      "name": "Sean Rodrigues",
+      "text": "Praesent"
+    },
+    {
+      "autoincrement": 10,
+      "email": "quynnmatos@aol.org",
+      "name": "Quynn Matos",
+      "text": "ut,"
+    },
+    {
+      "autoincrement": 11,
+      "email": "zephrbueno3645@google.edu",
+      "name": "Zephr Bueno",
+      "text": "molestie"
+    },
+    {
+      "autoincrement": 12,
+      "email": "calebdutra7775@google.edu",
+      "name": "Caleb Dutra",
+      "text": "tempus,"
+    },
+    {
+      "autoincrement": 13,
+      "email": "urielbarboza1882@protonmail.ca",
+      "name": "Uriel Barboza",
+      "text": "commodo"
+    },
+    {
+      "autoincrement": 14,
+      "email": "waynedesouza@icloud.br",
+      "name": "Wayne de Souza",
+      "text": "risus"
+    },
+    {
+      "autoincrement": 15,
+      "email": "oscaraparecido8290@hotmail.org",
+      "name": "Oscar Aparecido",
+      "text": "libero."
+    },
+    {
+      "autoincrement": 16,
+      "email": "cadmancamargo@yahoo.net",
+      "name": "Cadman Camargo",
+      "text": "massa"
+    },
+    {
+      "autoincrement": 17,
+      "email": "kareemlopes1231@outlook.edu",
+      "name": "Kareem Lopes",
+      "text": "erat."
+    },
+    {
+      "autoincrement": 18,
+      "email": "brooketavares@yahoo.couk",
+      "name": "Brooke Tavares",
+      "text": "diam"
+    },
+    {
+      "autoincrement": 19,
+      "email": "frederickamiranda5692@protonmail.couk",
+      "name": "Fredericka Miranda",
+      "text": "eget"
+    },
+    {
+      "autoincrement": 20,
+      "email": "emersondacunha7078@aol.ca",
+      "name": "Emerson da Cunha",
+      "text": "Quisque"
+    },
+    {
+      "autoincrement": 21,
+      "email": "adriansouza@yahoo.org",
+      "name": "Adrian Souza",
+      "text": "eget"
+    },
+    {
+      "autoincrement": 22,
+      "email": "iandepaula2665@outlook.couk",
+      "name": "Ian de Paula",
+      "text": "mauris"
+    },
+    {
+      "autoincrement": 23,
+      "email": "nasimtrindade4880@protonmail.br",
+      "name": "Nasim Trindade",
+      "text": "Nunc"
+    },
+    {
+      "autoincrement": 24,
+      "email": "alyssadasdores4335@icloud.com",
+      "name": "Alyssa Das Dores",
+      "text": "massa."
+    },
+    {
+      "autoincrement": 25,
+      "email": "xavierpinheiro669@protonmail.ca",
+      "name": "Xavier Pinheiro",
+      "text": "arcu."
+    },
+    {
+      "autoincrement": 26,
+      "email": "orsonmatos9049@icloud.couk",
+      "name": "Orson Matos",
+      "text": "Ut"
+    },
+    {
+      "autoincrement": 27,
+      "email": "jaquelyndecarvalho@icloud.edu",
+      "name": "Jaquelyn de Carvalho",
+      "text": "In"
+    },
+    {
+      "autoincrement": 28,
+      "email": "candacedosanjos@outlook.ca",
+      "name": "Candace dos Anjos",
+      "text": "auctor."
+    },
+    {
+      "autoincrement": 29,
+      "email": "jacobinacio@hotmail.ca",
+      "name": "Jacob Inacio",
+      "text": "risus."
+    },
+    {
+      "autoincrement": 30,
+      "email": "rogansales6308@hotmail.org",
+      "name": "Rogan Sales",
+      "text": "diam."
+    },
+    {
+      "autoincrement": 31,
+      "email": "ashtonmaia@aol.edu",
+      "name": "Ashton Maia",
+      "text": "convallis"
+    },
+    {
+      "autoincrement": 32,
+      "email": "lukechagas@outlook.com",
+      "name": "Luke Chagas",
+      "text": "mollis."
+    },
+    {
+      "autoincrement": 33,
+      "email": "burtonmarinho5724@google.net",
+      "name": "Burton Marinho",
+      "text": "Nunc"
+    },
+    {
+      "autoincrement": 34,
+      "email": "yaeltavares@aol.edu",
+      "name": "Yael Tavares",
+      "text": "vitae"
+    },
+    {
+      "autoincrement": 35,
+      "email": "medgedonascimento3167@aol.net",
+      "name": "Medge do Nascimento",
+      "text": "fermentum"
+    },
+    {
+      "autoincrement": 36,
+      "email": "reagandemoraes@icloud.com",
+      "name": "Reagan de Moraes",
+      "text": "massa"
+    },
+    {
+      "autoincrement": 37,
+      "email": "jordancorrea@google.net",
+      "name": "Jordan Correa",
+      "text": "vitae"
+    },
+    {
+      "autoincrement": 38,
+      "email": "molliefreitas5906@hotmail.couk",
+      "name": "Mollie Freitas",
+      "text": "purus"
+    },
+    {
+      "autoincrement": 39,
+      "email": "lucianribeiro1584@outlook.net",
+      "name": "Lucian Ribeiro",
+      "text": "justo"
+    },
+    {
+      "autoincrement": 40,
+      "email": "daquangomes3814@icloud.edu",
+      "name": "Daquan Gomes",
+      "text": "magna"
+    },
+    {
+      "autoincrement": 41,
+      "email": "libbydejesus@aol.net",
+      "name": "Libby de Jesus",
+      "text": "Aenean"
+    },
+    {
+      "autoincrement": 42,
+      "email": "fletcherhenrique@google.couk",
+      "name": "Fletcher Henrique",
+      "text": "gravida"
+    },
+    {
+      "autoincrement": 43,
+      "email": "nobletavares@aol.edu",
+      "name": "Noble Tavares",
+      "text": "Nunc"
+    },
+    {
+      "autoincrement": 44,
+      "email": "imeldapeixoto3729@yahoo.ca",
+      "name": "Imelda Peixoto",
+      "text": "est."
+    },
+    {
+      "autoincrement": 45,
+      "email": "jarrodcavalcante@protonmail.org",
+      "name": "Jarrod Cavalcante",
+      "text": "commodo"
+    },
+    {
+      "autoincrement": 46,
+      "email": "nigelpaulino@google.ca",
+      "name": "Nigel Paulino",
+      "text": "velit"
+    },
+    {
+      "autoincrement": 47,
+      "email": "yeopeixoto@aol.couk",
+      "name": "Yeo Peixoto",
+      "text": "vitae"
+    },
+    {
+      "autoincrement": 48,
+      "email": "luciusdomingues@aol.couk",
+      "name": "Lucius Domingues",
+      "text": "vitae"
+    },
+    {
+      "autoincrement": 49,
+      "email": "shainedossantos2099@hotmail.org",
+      "name": "Shaine dos Santos",
+      "text": "Nam"
+    },
+    {
+      "autoincrement": 50,
+      "email": "callumdesantana8129@yahoo.br",
+      "name": "Callum de Santana",
+      "text": "ac"
+    }
   ]
+
+
+
+
 }

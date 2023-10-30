@@ -7,7 +7,7 @@ export default function Home() {
         <h1>Bem-vindo à nossa Página Inicial!</h1>
       </div>
       <div className="content">
-        <p>Conteúdo da Página</p>
+        <p>Conteúdo da Página</p>        
       </div>
       <button className="action-button">Saiba Mais</button>
     </div>
